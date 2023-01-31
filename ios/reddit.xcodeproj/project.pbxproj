@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* redditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* redditTests.m */; };
+		02D8AFB2FE884F33BDA42C96 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85C6944E897643859DDA93FA /* Poppins-SemiBold.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-reddit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-reddit.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		158A9AE2A2EB4E1BAAA45B1F /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 909CE8D179594D44AFAB150B /* Poppins-Bold.ttf */; };
+		245FB89FDDE6447C9EFE1561 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFEEBD677E704F369A80E088 /* Poppins-Thin.ttf */; };
+		715A251B2986FF8C00DB25DE /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 715A251A2986FF8C00DB25DE /* Feather.ttf */; };
+		715A251C2986FF8C00DB25DE /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 715A251A2986FF8C00DB25DE /* Feather.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-reddit-redditTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-reddit-redditTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8661E7CF70AE45DCB258920A /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3BD57E11FAD41569A79AFA8 /* Poppins-Medium.ttf */; };
+		A03F2A8C9C474E099BAB6592 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93E4EEC089A7488D806FE52B /* Poppins-Light.ttf */; };
+		B8A36BDC3E8040D580577F6F /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F184A8D463444BB95EC4823 /* Poppins-Regular.ttf */; };
+		F5EFB25C187D48F2A059F8F8 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1A4940372A044BCA51E55E1 /* Poppins-Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +47,20 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reddit/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-reddit-redditTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reddit-redditTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-reddit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reddit.debug.xcconfig"; path = "Target Support Files/Pods-reddit/Pods-reddit.debug.xcconfig"; sourceTree = "<group>"; };
+		3F184A8D463444BB95EC4823 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-reddit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reddit.release.xcconfig"; path = "Target Support Files/Pods-reddit/Pods-reddit.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-reddit-redditTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reddit-redditTests.debug.xcconfig"; path = "Target Support Files/Pods-reddit-redditTests/Pods-reddit-redditTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-reddit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reddit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		715A251A2986FF8C00DB25DE /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reddit/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85C6944E897643859DDA93FA /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-reddit-redditTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reddit-redditTests.release.xcconfig"; path = "Target Support Files/Pods-reddit-redditTests/Pods-reddit-redditTests.release.xcconfig"; sourceTree = "<group>"; };
+		909CE8D179594D44AFAB150B /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		93E4EEC089A7488D806FE52B /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		BFEEBD677E704F369A80E088 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../src/assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		C3BD57E11FAD41569A79AFA8 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F1A4940372A044BCA51E55E1 /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../src/assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +139,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				8D58D2CCD33A4A5789402313 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -135,6 +153,21 @@
 				00E356EE1AD99517003FC87E /* redditTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8D58D2CCD33A4A5789402313 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1A4940372A044BCA51E55E1 /* Poppins-Black.ttf */,
+				909CE8D179594D44AFAB150B /* Poppins-Bold.ttf */,
+				93E4EEC089A7488D806FE52B /* Poppins-Light.ttf */,
+				C3BD57E11FAD41569A79AFA8 /* Poppins-Medium.ttf */,
+				3F184A8D463444BB95EC4823 /* Poppins-Regular.ttf */,
+				715A251A2986FF8C00DB25DE /* Feather.ttf */,
+				85C6944E897643859DDA93FA /* Poppins-SemiBold.ttf */,
+				BFEEBD677E704F369A80E088 /* Poppins-Thin.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -235,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715A251C2986FF8C00DB25DE /* Feather.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +278,14 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				715A251B2986FF8C00DB25DE /* Feather.ttf in Resources */,
+				F5EFB25C187D48F2A059F8F8 /* Poppins-Black.ttf in Resources */,
+				158A9AE2A2EB4E1BAAA45B1F /* Poppins-Bold.ttf in Resources */,
+				A03F2A8C9C474E099BAB6592 /* Poppins-Light.ttf in Resources */,
+				8661E7CF70AE45DCB258920A /* Poppins-Medium.ttf in Resources */,
+				B8A36BDC3E8040D580577F6F /* Poppins-Regular.ttf in Resources */,
+				02D8AFB2FE884F33BDA42C96 /* Poppins-SemiBold.ttf in Resources */,
+				245FB89FDDE6447C9EFE1561 /* Poppins-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,7 +606,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -598,6 +640,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -635,7 +678,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -661,6 +704,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

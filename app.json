@@ -1,4 +1,5 @@
 {
   "name": "reddit",
-  "displayName": "reddit"
+  "displayName": "reddit",
+  "orientation": "portrait"
 }
